@@ -32,7 +32,7 @@ jobs:
 
         - name: Build Docker image
           #run: docker build . -t $IMAGE_NAME
-          run: DOCKER_BUILDKIT=1 docker build -t mock-profiles-from-firebase-using-nestjs:1.1 .
+          run: DOCKER_BUILDKIT=1 docker build -t $IMAGE_NAME .
 
         - name: Push Docker image
           run: docker push $IMAGE_NAME
