@@ -1,5 +1,5 @@
 # syntax = docker/dockerfile:1.2
-FROM node:lts-alpine
+FROM node
 ENV NODE_ENV=production
 WORKDIR /usr/src/app
 COPY ["package.json", "package-lock.json*", "./"]
