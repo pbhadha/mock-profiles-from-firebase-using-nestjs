@@ -14,7 +14,7 @@ Clone or pull down this git repositor
 
 ```bash
 # development
-$ npm build
+$ npm run build
 
 # watch mode
 $ npm run start:dev
